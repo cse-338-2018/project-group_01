@@ -1,41 +1,39 @@
-## ML-Model-Flask-Deployment
-This is a demo project to elaborate how Machine Learn Models are deployed on production using Flask API
+# Similarity Analyzer - UnoCheck
 
-### Prerequisites
-You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
+<h1>About UnoCheck : </h1>
+An similarity checker application using AI technology typically uses Natural Language Processing (NLP) and machine learning algorithms to compare two or more pieces of text and determine the level of similarity between them. This application takes an article, compares it with existing research articles, and finds similar articles with a similarity percentage.
 
-### Project Structure
-This project has four major parts :
-1. model.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
-2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
-3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
-4. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
 
-### Running the project
-1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/52996563/216214340-c07a8eb3-ce00-4522-b36b-53571ba6851d.png">
+
+
+#### Prerequisites -
+Install the followings in this order. (NB. If already installed then update it to latest version)
+1. any IDE software for python
+2. Python3
+3. pip
+4. Flask
+#### Starter -
+> Assuming you already clone the project. 
+> Run the project by these command
 ```
-python model.py
+python3 -m venv .venv
+source .venv/bin/activate
+python3 app.py
 ```
-This would create a serialized version of our model into a file model.pkl
-
-2. Run app.py using below command to start Flask API
-```
-python app.py
-```
-By default, flask will run on port 5000.
-
-3. Navigate to URL http://localhost:5000
-
-You should be able to view the homepage as below :
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
-
-Enter valid numerical values in all 3 input boxes and hit Predict.
-
-If everything goes well, you should  be able to see the predcited salary vaule on the HTML page!
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Result.png)
-
-4. You can also send direct POST requests to FLask API using Python's inbuilt request module
-Run the beow command to send the request with some pre-popuated values -
-```
-python request.py
-```
+ ## Developers
+###### **Ananna Dristy**
+       Email - anannadristy03@gmail.com
+       Github Profile - Dristy03
+###### **Kawchar Husain**
+       Email - kawsarhn1@gmail.com
+       Github - kawchar85
+###### **Kaifa Tabassum*
+       Email - tabassumkaifa2@gmail.com
+       Github - kaifatab
+###### **Omar Sultan**
+       Email - omarsultan@gmail.com
+       Github - omarsultan054
+###### **Debpriya Dhar**
+       Email - debpriya65@gmail.com
+       Github - debpriya65
