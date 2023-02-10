@@ -4,9 +4,13 @@ from flask import Flask, request, jsonify, render_template
 import json
 import pickle
 import pandas as pd
-from model import predict;
 data_path = "combined.csv"
-predict=pickle.load(open('model.pkl','rb'))
+#model=pickle.load(open('model.pkl','rb'))
+f = open('model.pkl', 'rb')
+#unpickle the dataframe
+model = pickle.load(f)
+#close file
+f.close()
 app = Flask(__name__)
 @app.route('/')
 def home():
@@ -17,7 +21,7 @@ def predict_api():
     For direct API calls trought request
     '''
     data = request.get_json(force=True)
-    prediction=predict(data['name'], data_path)
+    prediction=predict(data['name'])
     #prediction=str(prediction)
     return jsonify(prediction)
 
