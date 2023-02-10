@@ -13,6 +13,8 @@ Install the followings in this order. (NB. If already installed then update it t
 2. Python3
 3. pip
 4. Flask
+5. nltk
+6. punkt
 #### Starter -
 > Assuming you already clone the project. 
 > Run the project by these command
@@ -21,6 +23,18 @@ python3 -m venv .venv
 source .venv/bin/activate
 python3 app.py
 ```
+>It would take time to run server depending on your GPU. 
+#### Updating Dataset -
+
+> Delete the existing combined.csv  fine
+>Save Updated csv file as combined.csv
+> Run model.py by these command
+```
+python3 -m venv .venv
+source .venv/bin/activate
+python3 model.py
+```
+
  ## Developers
 ###### **Ananna Dristy**
        Email - anannadristy03@gmail.com
