@@ -49,5 +49,5 @@ python3 model.py
        Email - omarsultan@gmail.com
        Github - omarsultan054
 ###### **Debpriya Dhar**
-       Email - debpriya65@gmail.com
+       Email - debpriya.susmoy1999@gmail.com
        Github - debpriya65
