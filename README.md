@@ -1,7 +1,7 @@
 # Similarity Analyzer - UnoCheck
 
 <h1>About UnoCheck : </h1>
-An similarity checker application using AI technology typically uses Natural Language Processing (NLP) and machine learning algorithms to compare two or more pieces of text and determine the level of similarity between them. This application takes an article, compares it with existing research articles, and finds similar articles with a similarity percentage.
+The UnoCheck application employs AI technology that leverages Natural Language Processing (NLP) and machine learning algorithms to evaluate the similarity between two or more articles. The application works by taking an article, comparing it with existing research articles, and then identifying similar articles with similarity percentage.
 
 \
 \
