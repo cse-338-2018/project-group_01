@@ -42,7 +42,7 @@ python3 model.py
 ###### **Kawchar Husain**
        Email - kawsarhn1@gmail.com
        Github - kawchar85
-###### **Kaifa Tabassum*
+###### **Kaifa Tabassum**
        Email - tabassumkaifa2@gmail.com
        Github - kaifatab
 ###### **Omar Sultan**
