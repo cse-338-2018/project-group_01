@@ -1,6 +1,6 @@
 # Project - Group 01
-## Team Name - TeamUno
-## Project Title - Similarity Analyzer (UnoCheck)
+### Team Name - TeamUno
+### Project Title - Similarity Analyzer (UnoCheck)
 
 
 ## About UnoCheck 
@@ -16,7 +16,8 @@ The Internet has brought a vast source of resources to our fingertips. With so m
 
 ## Overview
 The application contains the interface of text area for checking. In order to analyze, simply copy and paste the text in the text area and click the analyze button. Then the result will be shown on screen after a few moment.
-<img width="518" alt="image" src="https://user-images.githubusercontent.com/52996563/218104133-c88b62ff-445d-4dff-ab0f-b1edd3b583ae.png">
+<img width="481" alt="image" src="https://user-images.githubusercontent.com/52996563/218121730-4d912970-f2a8-40d4-ac59-7e810e3e7b52.png">
+
 
 The result consists of a table of some papers which have:
 - Abstract header of the paper
