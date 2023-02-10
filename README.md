@@ -26,7 +26,7 @@ python3 app.py
 >It would take time to run server depending on your GPU. 
 #### Updating Dataset -
 
-> Delete the existing combined.csv  file.\
+> Delete the existing combined.csv  file.
 > Save Updated csv file as combined.csv . \
 > Run model.py by these command.
 ```
